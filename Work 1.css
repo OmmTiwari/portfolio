@@ -59,6 +59,15 @@ body {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+/* Project Video Style */
+.project-slide.video-slide {
+    width: 60%; /* Adjust size as needed */
+    max-width: 500px; /* Optional: limit maximum width */
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .persistent-header {
@@ -93,3 +102,4 @@ body {
         width: 100%; /* Use full width */
     }
 }
+
