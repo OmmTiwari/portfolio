@@ -50,7 +50,7 @@ body {
     padding-bottom: 2rem;
 }
 
-/* Project Slide Style */
+/* Image Slide Style */
 .project-slide {
     width: 100%;
     height: auto;
@@ -59,10 +59,10 @@ body {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Project Video Style */
-.project-slide.video-slide {
-    width: 60%; /* Adjust size as needed */
-    max-width: 500px; /* Optional: limit maximum width */
+/* Video Slide Style */
+.video-slide {
+    width: 60%; /* Smaller width than image */
+    max-width: 500px;
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -79,12 +79,16 @@ body {
     }
 
     .slides-container {
-        padding-top: 4rem; /* Adjust spacing for header */
-        gap: 1.5rem; /* Reduce gap between slides */
+        padding-top: 4rem;
+        gap: 1.5rem;
     }
 
     .project-slide {
-        width: 90%; /* Slight margin on smaller screens */
+        width: 90%;
+    }
+
+    .video-slide {
+        width: 80%;
     }
 }
 
@@ -99,7 +103,10 @@ body {
     }
 
     .project-slide {
-        width: 100%; /* Use full width */
+        width: 100%;
+    }
+
+    .video-slide {
+        width: 90%;
     }
 }
-
